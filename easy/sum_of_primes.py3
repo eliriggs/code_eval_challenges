@@ -1,6 +1,6 @@
 i = 0
 primes = 0
-total = 1
+total = 0
 
 while True:
 
@@ -18,5 +18,7 @@ while True:
 
     if primes > 1000:
         break
+
+total -= 1
 
 print(str(total))
