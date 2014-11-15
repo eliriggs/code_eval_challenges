@@ -1,4 +1,2 @@
 import sys
-with open(sys.argv[1], 'r') as f:
-    for line in f:
-        print(line.strip().lower())
+(lambda f: print('\n'.join(line.strip().lower() for line in f)))(open(sys.argv[1], 'r'))
