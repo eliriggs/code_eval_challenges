@@ -1,2 +1,2 @@
-HELLO CODEEVAL
-This is some text
+5
+12
